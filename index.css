@@ -56,6 +56,7 @@
 }
 h4 {
    color: cadetblue;
+   border-top: 0.5px solid whitesmoke;
    
 }
 
@@ -66,7 +67,7 @@ color: #000000;
 text-align: center;
 padding-top: 3em;
 padding-bottom: 4em;
-border-top: 1px solid #f0eeee;}
+border-top: 0.5px solid whitesmoke;}
 
 .topheading{
   font: size 10px;;
@@ -80,3 +81,48 @@ body {
   overflow-x: hidden;
   background-color: #f7f5f5;
 }
+.cta-button {
+  border-radius: 6px;
+  border: 1px solid #ab2537fa;
+  padding: 1em 1.5em;
+  display: inline-block;
+  font-size: 1.5em;
+  font-style: italic;
+  margin: 0 1em;
+  margin-bottom: 1em;
+  min-width: 4em;
+  transition: all 0.25s ease;
+}
+.arrow-right, .arrow-left {
+  display: inline-block;
+  transition: all 0.25s ease;
+  padding-left: 10px;
+
+}
+.social:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+.social {
+  -webkit-transform: scale(0.8);
+  /* Browser Variations: */
+  
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+}
+
+/*
+ Multicoloured Hover Variations
+*/
+
+#social-fb:hover {
+  color: #3B5998;
+}
+#social-tw:hover {
+  color: #4099FF;
+}
+
